@@ -1,128 +1,154 @@
-AI Research Explorations
+# AI Research Explorations
 
-Hands-on research notes and technical experiments in OCR, Computer Vision, and applied AI systems.
-This repository documents structured exploration of state-of-the-art open-source models, with emphasis on:
+Hands-on research and technical exploration of modern OCR, computer vision,
+and multimodal AI systems.
 
-Model understanding
+This repository documents structured analysis of state-of-the-art
+open-source models with emphasis on:
 
-Evaluation and limitations
+- Architecture understanding
+- Pipeline breakdown
+- Controlled experimentation
+- Performance evaluation
+- Deployment trade-offs
+- System-level reasoning
 
-Practical experimentation
+This is a research and engineering analysis repository — not a fork showcase.
 
-Deployment considerations
+---
 
-📁 Repository Structure
+# Repository Structure
+
+
 ai-research-explorations/
-│
-├── sources/
-│   ├── easyocr/
-│   ├── jamma/
-│   └── deepseek_ocr/
-│
-├── notes/
-│   ├── easyocr.md
-│   ├── jamma.md
-│   └── deepseek_ocr.md
-│
-└── README.md
 
-🔍 Projects Covered
-1️⃣ EasyOCR
+sources/
+├── easyocr/
+├── jamma/
+└── deepseek_ocr/
 
-Focus: Traditional deep learning–based OCR pipeline
+notes/
+├── easyocr.md
+├── jamma.md
+└── deepseek_ocr.md
 
-Multi-language OCR
+README.md
 
-CRAFT text detection + CRNN recognition
 
-Deployment considerations
+---
 
-Limitations in noisy and structured documents
+# Projects Covered
 
-Original Repository:
-https://github.com/JaidedAI/EasyOCR
+## 1. EasyOCR
+
+**Focus:** Traditional deep learning–based OCR pipeline
+
+- CRAFT text detection
+- CRNN recognition
+- Multi-language OCR support
+- Practical deployment considerations
+- Performance in noisy documents
+
+Original Repository:  
+https://github.com/JaidedAI/EasyOCR  
 
 License: Apache 2.0
 
-2️⃣ DeepSeek-OCR
+---
 
-Focus: Advanced OCR leveraging large multimodal models
+## 2. DeepSeek-OCR
 
-Structured document parsing
+**Focus:** Advanced OCR using large multimodal models
 
-Complex layout understanding
+- Structured document parsing
+- Complex layout understanding
+- Vision-language modeling
+- Enterprise document extraction use-cases
 
-Vision-language modeling
-
-Enterprise document extraction potential
-
-Original Repository:
-https://github.com/deepseek-ai/DeepSeek-OCR
+Original Repository:  
+https://github.com/deepseek-ai/DeepSeek-OCR  
 
 License: As specified by upstream repository
 
-3️⃣ JamMa
+---
 
-Focus: Multimodal LLM architecture exploration
+## 3. JamMa
 
-Vision + language integration
+**Focus:** Multimodal LLM architecture exploration
 
-Model reasoning behavior
+- Vision + language integration
+- Model reasoning behavior
+- Generative output evaluation
+- Prompt experimentation
 
-Evaluation of generative output quality
-
-Prompt experimentation
-
-Original Repository:
-https://github.com/leoluxxx/JamMa
+Original Repository:  
+https://github.com/leoluxxx/JamMa  
 
 License: MIT
 
-📘 Research Methodology
+---
 
-For each project:
+# Research Methodology
 
-Reviewed architecture and documentation
+For each model:
 
-Studied model pipeline and training approach
+1. Studied documentation and source code
+2. Analyzed architecture and training pipeline
+3. Conducted controlled experiments
+4. Evaluated performance and limitations
+5. Documented findings in `/notes`
+6. Assessed deployment feasibility
 
-Conducted controlled experiments
+Approach:
 
-Documented performance observations
+Model → Architecture → Experiment → Observation → Trade-off Analysis
 
-Identified practical deployment trade-offs
+---
 
-Summarized findings in /notes
+# What This Repository Demonstrates
 
-This repository is not intended to claim ownership of upstream models.
+This project demonstrates the ability to:
+
+- Read and understand large open-source ML codebases
+- Reverse-engineer model pipelines
+- Analyze multimodal architectures
+- Evaluate real-world limitations
+- Think beyond model usage toward system design
+- Document technical findings clearly
+
+It reflects a transition from “using AI models” to
+“understanding and evaluating AI systems.”
+
+---
+
+# Key Themes Explored
+
+- OCR pipeline design
+- Text detection vs recognition trade-offs
+- Multimodal LLM reasoning
+- Layout understanding challenges
+- Model generalization limits
+- Practical inference constraints
+- Deployment considerations
+
+---
+
+# Future Explorations
+
+Planned additions:
+
+- LayoutLM and document transformers
+- Multimodal LLM fine-tuning
+- OCR + RAG integration pipelines
+- Document intelligence systems
+- Benchmark comparison studies
+
+---
+
+# Important Note
+
+This repository does not claim ownership of any upstream models.
 All source code remains attributed to original authors.
+This project focuses strictly on research analysis and experimentation.
 
-🎯 Purpose
-
-This repo demonstrates:
-
-Ability to read and understand large open-source ML codebases
-
-Structured technical research and documentation
-
-Model evaluation mindset
-
-Transition from model usage → system-level thinking
-
-🚀 Future Additions
-
-Planned explorations:
-
-LayoutLM / document transformers
-
-Multimodal LLM fine-tuning
-
-OCR + RAG pipelines
-
-Document intelligence systems
-
-👤 Author
-
-Yeshwanth Akula
-Master’s in Computer Science
-Focus: Machine Learning, LLM Systems, Applied AI
+---
